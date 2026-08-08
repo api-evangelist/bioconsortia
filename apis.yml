@@ -1,17 +1,33 @@
 aid: bioconsortia
 name: BioConsortia
-description: 'BioConsortia is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'BioConsortia, Inc. is an agricultural biotechnology company headquartered in Davis,
+  California, with additional laboratories in New Zealand, that discovers and commercializes microbial
+  biologicals for row crops and specialty agriculture. Its patented Advanced Microbial Selection (AMS)
+  process, RhizoViz microbe-visualization tool and GenePro genomics and gene-engineering platform are
+  used to screen a collection of more than 60,000 characterized microorganisms — including roughly
+  9,000 endophytes — into nitrogen-fixation biofertilizers, biocontrol products (bionematicides and
+  biofungicides) and biostimulants, largely delivered as seed treatments. The company sells physical
+  crop inputs through partners such as Mosaic, Nichino America and Envu; its platform technologies are
+  internal R&D instruments rather than commercial software, and BioConsortia publishes no public API,
+  developer portal, SDK or machine-readable specification.'
+image: https://www.bioconsortia.com/hubfs/Bio%20Consortia/Logos/bioconsortia%20logo%202026%20full%20color%20lrg%20(R)%20MASTER.svg
 url: https://raw.githubusercontent.com/api-evangelist/bioconsortia/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-07'
 modified: '2026-08-07'
 tags:
 - Company
+- Agriculture
+- AgTech
+- Biotechnology
+- Agricultural Biologicals
+- Microbials
+- Crop Science
+- Biofertilizers
+- Nitrogen Fixation
+- Genomics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +35,44 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/bioconsortia-domain-security.yml
+- type: LLMsTxt
+  url: llms/bioconsortia-llms.txt
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.bioconsortia.com/
+- type: About
+  url: https://www.bioconsortia.com/about-us
+- type: Blog
+  url: https://www.bioconsortia.com/news
+- type: Support
+  url: https://www.bioconsortia.com/contact
+- type: FAQ
+  url: https://www.bioconsortia.com/resources/faq
+- type: Careers
+  url: https://www.bioconsortia.com/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/bioconsortia-inc-
+x-enrichment:
+  date: '2026-08-07'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: BioConsortia sells microbial seed treatments and biofertilizers as physical crop inputs;
+    its RhizoViz and GenePro "platforms" are internal laboratory R&D instruments, and the entire
+    68-URL sitemap covers products, pipeline, news and careers with no developer, docs or API page.
+  evidence:
+  - url: https://www.bioconsortia.com/sitemap.xml
+    status: 200
+  - url: https://www.bioconsortia.com/openapi.json
+    status: 404
+  - url: https://www.bioconsortia.com/.well-known/agent-card.json
+    status: 404
+  - url: https://www.bioconsortia.com/llms.txt
+    status: 404
+  - url: https://api.bioconsortia.com/
+    status: 0
+  checked: '2026-08-07'
