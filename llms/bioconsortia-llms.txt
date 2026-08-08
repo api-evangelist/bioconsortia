@@ -1,0 +1,56 @@
+# BioConsortia
+
+> BioConsortia, Inc. is an agricultural biotechnology company in Davis, California (with laboratories in
+> New Zealand) that discovers and commercializes microbial biologicals — nitrogen-fixation biofertilizers,
+> bionematicides and biofungicides, and biostimulants — largely delivered as seed treatments for row crops
+> and specialty agriculture. BioConsortia publishes **no public API, developer portal, SDK, or
+> machine-readable specification**; its RhizoViz and GenePro platforms are internal laboratory R&D
+> instruments, not products offered to developers.
+
+## Company
+
+- [Homepage](https://www.bioconsortia.com/): Microbial biologicals platform and products.
+- [About Us](https://www.bioconsortia.com/about-us): Company background, leadership, and locations.
+- [Contact & Collaborate](https://www.bioconsortia.com/contact): Partnership and inquiry channel.
+- [Careers](https://www.bioconsortia.com/careers): Open roles.
+- [Intellectual Property](https://www.bioconsortia.com/ip): Patent estate covering the discovery platform.
+- [LinkedIn](https://www.linkedin.com/company/bioconsortia-inc-): Company profile.
+
+## Platform (internal R&D instruments — not developer products)
+
+- [Our Platform](https://www.bioconsortia.com/our-platform): Overview of the discovery and optimization stack.
+- [Advanced Microbial Selection (AMS)](https://www.bioconsortia.com/our-platform/advanced-microbial-selection): Patented directed-selection process for identifying beneficial microbial consortia.
+- [RhizoViz](https://www.bioconsortia.com/our-platform/rhizoviz): Visualization and measurement tool for plant-associated microbial colonization under varying soil pH and temperature.
+- [GenePro](https://www.bioconsortia.com/our-platform/genepro): Genomics and gene-engineering platform used to design and optimize microbial strains.
+- [Pipeline](https://www.bioconsortia.com/our-platform/pipeline): Products moving toward registration.
+
+## Products
+
+- [Our Products](https://www.bioconsortia.com/our-products): Full biological product portfolio.
+- [Nitrogen Fixation](https://www.bioconsortia.com/our-products/nitrogen-fixation): Microbial biofertilizers that displace synthetic nitrogen in cereals, vegetables and row crops.
+- [Biocontrol](https://www.bioconsortia.com/our-products/biocontrol): Bionematicide and biofungicide seed treatments.
+- [Biostimulants](https://www.bioconsortia.com/our-products/biostimulants): Nutrient-use-efficiency and yield products.
+
+## Resources
+
+- [Resources](https://www.bioconsortia.com/resources): Index of grower and partner material.
+- [Using Our Products](https://www.bioconsortia.com/resources/using-our-products): Application guidance.
+- [Proven Results](https://www.bioconsortia.com/resources/proven-results): Field-trial results.
+- [Customer Stories](https://www.bioconsortia.com/resources/customer-stories): Grower and partner accounts.
+- [FAQs](https://www.bioconsortia.com/resources/faq): Platform and product questions.
+- [News](https://www.bioconsortia.com/news): Company announcements and press coverage.
+
+## API surface
+
+BioConsortia has no public API surface. Probed 2026-08-07 and all returned HTTP 404 on
+`https://www.bioconsortia.com`: `/openapi.json`, `/openapi.yaml`, `/swagger.json`, `/api-docs`, `/docs`,
+`/redoc`, `/api`, `/v1/openapi.json`, `/graphql`, `/llms.txt`, `/.well-known/security.txt`,
+`/.well-known/agent-card.json`, `/.well-known/agent.json`, `/.well-known/api-catalog`,
+`/.well-known/openid-configuration`, `/.well-known/oauth-authorization-server`,
+`/.well-known/ai-plugin.json`, `/developers`, `/developer`, `/api-documentation`. The hosts
+`api.`, `developer.`, `docs.`, `app.`, `portal.`, `status.` and `trust.bioconsortia.com` do not resolve.
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/bioconsortia/refs/heads/main/apis.yml): APIs.json 0.20 profile for BioConsortia.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/bioconsortia/refs/heads/main/security/bioconsortia-domain-security.yml): Probed TLS, HSTS, DNSSEC, CAA, SPF and DMARC posture.
