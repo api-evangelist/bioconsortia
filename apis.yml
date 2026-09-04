@@ -21,6 +21,18 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://www.bioconsortia.com/hubfs/Bio%20Consortia/Logos/bioconsortia%20logo%202026%20full%20color%20lrg%20(R)%20MASTER.svg
 url: https://raw.githubusercontent.com/api-evangelist/bioconsortia/refs/heads/main/apis.yml
 x-type: company
